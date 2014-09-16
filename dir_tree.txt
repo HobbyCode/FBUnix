@@ -1,0 +1,41 @@
+// Dir Tree hmmmm.....  work in progress.... as I sort my thoughts on how the F*** this is going to be done..
+// YES, Im a MF'n NOOB!
+/*  Dir structure
+    /--
+       |--/prog   (Programs)
+       |--/FBUnix (Unix System)
+       |  |--/BOOT
+       |  |--/SYS
+       |     |--/Core
+       |        |--/DEVICE
+       |        |--/FS
+       |        |--/HAL
+       |        |--/IO
+       |        |--/
+       |--/USER   (User profiles and accounts)
+*/ 
+// hmmmm... 
+
+#define _ROOT_ = "/FBUnix/ROOT"     // ROOT account
+#define _ADMIN_ = "/FBUnix/ADMIN"   // ADMIN account
+#define _USER_ = "/USER"            // USER accounts
+
+#define _FBU_ = "/FBUnix"
+#define _FBU_BOOT_ = "/FBUnix/BOOT"
+
+/* FBUnix Core system */
+#define _FBU_Core_ = "/FBUnix/SYS/Core"
+#define _FBU_Core_Device_ = "/FBUnix/SYS/Core/Device"
+#define _FBU_Core_HAL_ = "/FBUnix/SYS/Core/HAL"
+#define _FBU_Core_FS_ = "/FBUnix/SYS/Core/FS"
+#define _FBU_Core_IO_ = "FBUinix/SYS/Core/IO"
+
+/* FBUnix HAL system */
+#define _FBU_Core_HAL_XHCI
+#define _FBU_Core_HAL_AHCI
+#define _FBU_Core_HAL_OHCI
+#define _FBU_Core_HAL_SHDD
+#define _FBU_Core_HAL_ODD
+#define _FBU_Core_HAL_ODD_BLURAY
+#define _FBU_Core_HAL_ODD_CD
+#define _FBU_Core_HAL_ODD_DVD
