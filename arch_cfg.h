@@ -1,5 +1,5 @@
-#ifndef _arch_h
-#define _arch_h
+#ifndef _arch_cfg_h
+#define _arch_cfg_h
 
 #ifdef _x86_64
 # include "/arch/x86_64.h"
