@@ -15,3 +15,5 @@
 #else
 # return ERR_MSG(ERNOARCHSUPPORT)  /* Error, ARCH not supported */
 #endif
+
+#endif
